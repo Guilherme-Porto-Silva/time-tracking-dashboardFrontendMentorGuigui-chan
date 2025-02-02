@@ -1,4 +1,4 @@
-// JSON dialing start
+// dialing with JSON
 
 let DailyInfo = [
     {
@@ -130,7 +130,6 @@ function fillObjects(informations) {
     }));
 }
 
-
 async function requestFunction() {
 
     const response = await fetch("./data.json");
@@ -140,8 +139,7 @@ async function requestFunction() {
     fillObjects(informations);
 }
 
-
-// JSON dialing end
+// dinamifying tag texts and button opacity
 
 const userProfile = document.getElementById("userProfileId");
 
